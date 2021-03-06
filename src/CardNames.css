@@ -1,0 +1,21 @@
+.names {
+	display: flex;
+	justify-content: space-between;
+}
+
+.name {
+	margin: 10% 20% 10% 20%;
+	display: flex;
+	flex-direction: column;
+}
+
+.name h3 {
+	border-bottom: 2px solid white;
+	width: 170%;
+	align-self: center;
+	margin-bottom: -20%;
+}
+
+.name p {
+	font-style: italic;
+}

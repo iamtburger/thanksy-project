@@ -1,0 +1,76 @@
+.CardTextHolder {
+	color: white;
+	border-radius: 4px;
+	font-size: 1.5em;
+	font-weight: 500;
+	background-color: rgba(5, 15, 27, 0.7);
+	min-width: 40%;
+	max-width: 80%;
+	margin: auto;
+	padding: 20px;
+}
+
+.CardTitle {
+	/* padding-top: 20px; */
+	z-index: 1;
+	/* display: flex; */
+	position: relative;
+}
+
+.CardTitle:hover .icon {
+	display: flex;
+	z-index: 2;
+	justify-content: center;
+	align-items: center;
+}
+
+.CardText {
+	z-index: 1;
+	display: flex;
+	position: relative;
+	text-align: center;
+}
+.CardText:hover .icon {
+	display: flex;
+	z-index: 2;
+	justify-content: center;
+	align-items: center;
+}
+
+.hideIcon {
+	display: none;
+}
+
+.icon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	background-color: rgba(73, 10, 10, 0.9);
+}
+.icon:hover {
+	cursor: pointer;
+}
+
+/* Not necessary */
+.text-edit {
+	display: block;
+}
+
+.titleIcon {
+	display: block;
+}
+
+/* input {
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 2px solid white;
+	color: white;
+	font-size: 1.5em;
+	font-weight: 500;
+	background-color: rgba(5, 15, 27, 0.4);
+	width: 100%;
+} */
