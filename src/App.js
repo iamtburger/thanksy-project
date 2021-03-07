@@ -1,4 +1,3 @@
-import "./App.css";
 import GenerateImage from "./GenerateImage";
 import SharedCard from "./SharedCard";
 import Home from "./Home";

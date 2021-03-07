@@ -1,6 +1,6 @@
 # Thanksy
 
-This a silly little project I wanted to do for a while.
+This a silly little project I wanted to do for a while and I thought would be a good opportunity to practice.
 
 When you are working in a corporate environment, or either in a small company, saying "Thank you!" can make a difference.
 When I was working for a retail chain, there was a habbit of giving out "Thank you cards" to people who have gone the extra mile, who helped you out when it wasn't really their job.
@@ -14,6 +14,7 @@ For this occasion you can just create a digital version of the Thank you card th
 
 ## Refactoring and styling:
 
--   Optimize states
+-   Improve state management
+-   Form validation
 -   Optimize mobile version
--   Improve code readablitiy
+-   Write tests

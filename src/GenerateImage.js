@@ -1,10 +1,5 @@
-import {
-	exportComponentAsJPEG,
-	exportComponentAsPDF,
-	exportComponentAsPNG,
-} from "react-component-export-image";
+import { exportComponentAsPNG } from "react-component-export-image";
 import Card from "./Card";
-import "./GenerateImage.css";
 import React, { useRef, useState } from "react";
 import useInput from "./hooks/useInputState";
 import { createUseStyles } from "react-jss";
@@ -16,6 +11,9 @@ const useStyles = createUseStyles({
 		display: "flex",
 		flexWrap: "wrap",
 		justifyContent: "center",
+	},
+	box: {
+		margin: "2em",
 	},
 });
 
@@ -54,7 +52,7 @@ const GenerateImage = () => {
 					setPublicCard={setPublicCard}
 					publicCard={publicCard}
 				/>
-				<div className="box">
+				<div className={classes.box}>
 					<div className="shadow">
 						<Card
 							ref={componentRef}
@@ -69,13 +67,6 @@ const GenerateImage = () => {
 					</div>
 				</div>
 			</div>
-
-			{/* <button
-				onClick={() => exportComponentAsPNG(componentRef)}
-				className="export-button"
-			>
-				Export As PNG
-			</button> */}
 		</React.Fragment>
 	);
 };
